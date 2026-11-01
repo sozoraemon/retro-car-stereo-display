@@ -41,14 +41,12 @@ Raspberry PiとPythonを使って、1990年代のカーオーディオの表示�
 
 ## 画面解像度の変更
 
-SPI液晶ミラーリングの初期設定では、デスクトップの解像度を960×640に変更しています。
-
-本プロジェクトでは800×480を使用するため、既存の自動起動設定を書き換えます。
+本プロジェクトでは800×480のデスクトップの解像度を使用するため、既存の自動起動設定を書き換えます。
 
 ターミナルで以下のコマンドを実行してください。
 
 ```bash
-sed -i 's/960x640/800x480/g' ~/.config/labwc/autostart
+mkdir -p ~/.config/labwc && touch ~/.config/labwc/autostart && sed -i '/wlr-randr --output NOOP-1 --custom-mode/d' ~/.config/labwc/autostart && echo '( sleep 3; wlr-randr --output NOOP-1 --custom-mode 800x480 ) &' >> ~/.config/labwc/autostart
 ```
 
 設定後、Raspberry Piを再起動してください。
