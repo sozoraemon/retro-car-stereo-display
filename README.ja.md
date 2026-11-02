@@ -41,7 +41,6 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779BJの3機種に対応していま
 | プログラミング言語 | Python |
 | 描画ライブラリ | Pygame |
 | 描画解像度 | 800×480 |
-| フレームレート | 20FPSまたは30FPS（機種による） |
 | 液晶モジュール | MHS35 SPI液晶（480×320） |
 | 画面表示方式 | Wayland DMA-BUFミラーリング |
 
