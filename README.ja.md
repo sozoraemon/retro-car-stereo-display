@@ -11,7 +11,7 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779BJの3機種に対応していま
 ## 対応機種
 
 ### KENWOOD DPX-440
-
+![KENWOOD DPX-440 running on Raspberry Pi](photos/dpx440.jpg)
 - 立体的な3Dスペクトラムアナライザー
 - 左右対称の曲線状サイドメーター
 - 2列ずつ上から下に流れる点灯アニメーション
