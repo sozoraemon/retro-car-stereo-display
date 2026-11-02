@@ -4,7 +4,7 @@ Raspberry PiとPythonを使って、1990年代のカーオーディオの表示�
 
 当時のカーオーディオに特徴的な3Dスペクトラムアナライザーやドットマトリクス表示、レベルメーターなどを、PythonのPygameで再現しています。
 
-KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779BJの3機種に対応しています。
+KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779JBの3機種に対応しています。
 
 音声再生機能はありません。懐かしいカーオーディオの表示演出を楽しむための作品です。
 
@@ -27,9 +27,9 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779BJの3機種に対応していま
 - 24バンドのレベル変化アニメーション
 - 曜日と現在時刻を表示するドットマトリクス
 
-### ALPINE MDA-W779BJ
+### ALPINE MDA-W779JB
 
-<img src="photos/w779jb.jpeg" alt="ALPINE MDA-W779BJ running on Raspberry Pi" width="400">
+<img src="photos/w779jb.jpeg" alt="ALPINE MDA-W779JB running on Raspberry Pi" width="400">
 
 - 扇状に広がる3Dスペクトラムアナライザー
 - 青系の18段カラー表示とアクセントカラー
@@ -116,7 +116,7 @@ python3 dpx440.py
 python3 dpx550.py
 ```
 
-**JVC MDA-W779BJ**
+**ALPINE MDA-W779JB**
 
 ```bash
 python3 w779jb.py
@@ -138,7 +138,11 @@ retro-car-stereo-display/
 ├── dpx550.py
 ├── dpx550.png
 ├── w779jb.py
-└── w779jb.png
+├── w779jb.png
+└── photos/
+    ├── dpx440.jpeg
+    ├── dpx550.jpeg
+    └── w779jb.jpeg
 ```
 
 各Pythonファイルは、同じフォルダにある対応する背景画像を読み込みます。
@@ -171,7 +175,6 @@ DPX-440では、メーカー名と機種名も順番に表示し、文字の切�
 
 - Raspberry Pi 5とMHS35 SPI液晶を想定していますが、Pygameが動作するほかの環境でも利用できる場合があります。
 - 表示アニメーションは実際の音声信号とは連動していません。
-- 20FPS・30FPSは各プログラムの設定値です。実際の描画速度は動作環境によって異なります。
 - SPI液晶へのミラーリング速度は、Pythonプログラムの描画速度とは異なります。
 - 掲載するメーカー名や商標は、それぞれの権利者に帰属します。
 - 本プロジェクトは各カーオーディオメーカーの公式製品ではなく、各社による承認・提携を示すものではありません。
