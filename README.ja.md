@@ -141,7 +141,7 @@ python3 dpx440.py
 
 ### ファイル構成
 
-すべてのPythonファイルと背景画像を、リポジトリの同じ階層に配置します。
+リポジトリは以下の構成になっています。
 
 ```text
 retro-car-stereo-display/
