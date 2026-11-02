@@ -21,11 +21,15 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779BJの3機種に対応していま
 
 ### KENWOOD DPX-550
 
+<img src="photos/dpx550.jpeg" alt="KENWOOD DPX-550 running on Raspberry Pi" width="400">
+
 - 奥行きのある3Dスペクトラムアナライザー
 - 24バンドのレベル変化アニメーション
 - 曜日と現在時刻を表示するドットマトリクス
 
 ### ALPINE MDA-W779BJ
+
+<img src="photos/w779bj.jpeg" alt="ALPINE MDA-W779BJ running on Raspberry Pi" width="400">
 
 - 扇状に広がる3Dスペクトラムアナライザー
 - 青系の18段カラー表示とアクセントカラー
