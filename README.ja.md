@@ -8,7 +8,7 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779JBの3機種に対応していま
 
 [MHS35 SPI液晶（Raspberry Pi用3.5インチディスプレイ）](https://electronicwork.shop/items/6ac8ff42c5f8f197e65e1657)での表示を基本としていますが、[HyperPixel 4.0](https://shop.pimoroni.com/en-jp/products/hyperpixel-4?variant=12569485443155)でも動作します。
 
-音声再生機能はありません。懐かしいカーオーディオの表示演出を楽しむための作品です。
+音声再生機能はありません。懐かしいカーオーディオの表示演出を見て楽しむための作品です。
 
 ## 対応機種
 
