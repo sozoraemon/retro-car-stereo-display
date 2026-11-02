@@ -161,7 +161,7 @@ retro-car-stereo-display/
 
 各カーオーディオの外観を再現した背景画像を用意し、その上にPythonのPygameでアニメーションを描画しています。
 
-<img src="photos/background_images.png" alt="Background images of three retro car stereo models" width="400">
+<img src="photos/background_images.png" alt="Background images of three retro car stereo models" width="600">
 
 背景画像は固定したまま、スペクトラムアナライザーやドットマトリクス、レベルメーターなどを動かす仕組みです。
 
