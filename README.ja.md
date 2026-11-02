@@ -26,16 +26,13 @@ Raspberry PiとPythonを使って、1990年代のカーオーディオの表示�
 <img src="photos/dpx550.jpeg" alt="KENWOOD DPX-550 running on Raspberry Pi" width="400">
 
 - 奥行きのある3Dスペクトラムアナライザー
-- 24バンドのレベル変化アニメーション
 - 曜日と現在時刻を表示するドットマトリクス
 
 ### ALPINE MDA-W779JB
 
 <img src="photos/w779jb.jpeg" alt="ALPINE MDA-W779JB running on Raspberry Pi" width="400">
 
-- 扇状に広がる3Dスペクトラムアナライザー
-- 青系の18段カラー表示とアクセントカラー
-- 中央から上下に広がるレベル変化アニメーション
+- 扇状に広がる18段カラーの3Dスペクトラムアナライザー。
 - 曜日と現在時刻を表示するドットマトリクス
 
 ## 動作環境
