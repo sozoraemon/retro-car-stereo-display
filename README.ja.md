@@ -17,8 +17,8 @@ Raspberry PiとPythonを使って、1990年代のカーオーディオの表示�
 <img src="photos/dpx440.jpeg" alt="KENWOOD DPX-440 running on Raspberry Pi" width="400">
 
 - 立体的な3Dスペクトラムアナライザー
-- 左右対称の曲線状サイドメーター
 - 2列ずつ上から下に流れる点灯アニメーション
+- 左右対称の曲線状サイドメーター
 - 機種名、メーカー名、現在時刻を切り替えるドットマトリクス表示
 
 ### KENWOOD DPX-550
