@@ -72,14 +72,7 @@ MHS35 SPI液晶を使用する場合は、以下のミラーリングプログ�
 
 このプログラムを使用すると、Raspberry Piのデスクトップ画面をMHS35 SPI液晶にミラーリングできます。
 
-インストールと動作確認は、リンク先のREADMEに従って完了させてください。
-
-Pygameも必要です。インストールされていない場合は、次のコマンドで導入できます。
-
-```bash
-sudo apt update
-sudo apt install python3-pygame
-```
+液晶モジュールの取り付け方法や詳しい設定手順については、[ブログ記事](https://sozorablog.com/raspberry-pi-3-5-inch-spi-lcd/)でも紹介しています。
 
 ## 画面解像度の変更
 
