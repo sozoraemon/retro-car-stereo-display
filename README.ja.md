@@ -47,8 +47,15 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779JBの3機種に対応していま
 | プログラミング言語 | Python |
 | 描画ライブラリ | Pygame |
 | 描画解像度 | 800×480 |
-| 液晶モジュール | MHS35 SPI液晶（480×320） |
-| 画面表示方式 | Wayland DMA-BUFミラーリング |
+| 液晶モジュール | MHS35 SPI液晶（480×320）、HyperPixel 4.0（800×480） |
+| 画面表示方式 | Wayland DMA-BUFミラーリング（MHS35 SPI液晶の場合） |
+
+本プロジェクトはMHS35 SPI液晶での表示を基本としていますが、HyperPixel 4.0でも動作します。
+
+使用する液晶モジュールは、以下のページで確認できます。
+
+- [Raspberry Pi用ディスプレイモジュール（3.5インチ）｜電子工作ステーション](https://electronicwork.shop/items/6ac8ff42c5f8f197e65e1657)
+- [HyperPixel 4.0｜Pimoroni公式サイト](https://shop.pimoroni.com/en-jp/products/hyperpixel-4?variant=12569485443155)
 
 ## 事前準備
 
