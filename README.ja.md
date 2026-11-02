@@ -29,7 +29,7 @@ KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779BJの3機種に対応していま
 
 ### ALPINE MDA-W779BJ
 
-<img src="photos/w779bj.jpeg" alt="ALPINE MDA-W779BJ running on Raspberry Pi" width="400">
+<img src="photos/w779jb.jpeg" alt="ALPINE MDA-W779BJ running on Raspberry Pi" width="400">
 
 - 扇状に広がる3Dスペクトラムアナライザー
 - 青系の18段カラー表示とアクセントカラー
