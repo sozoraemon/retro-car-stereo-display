@@ -5,6 +5,15 @@ Raspberry PiとPythonを使って、1990年代のカーオーディオの表示�
 当時のカーオーディオに特徴的な3Dスペクトラムアナライザーやドットマトリクス表示、レベルメーターなどを、PythonのPygameで再現しています。
 
 KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779JBの3機種に対応しています。
+Raspberry PiとPythonを使って、1990年代のカーオーディオの表示画面を再現するプロジェクトです。
+
+当時のカーオーディオに特徴的な3Dスペクトラムアナライザーやドットマトリクス表示、レベルメーターなどを、PythonのPygameで再現しています。
+
+KENWOODのDPX-440、DPX-550、ALPINEのMDA-W779JBの3機種に対応しています。
+
+[Raspberry Pi用3.5インチSPI液晶](https://electronicwork.shop/items/6ac8ff42c5f8f197e65e1657)での表示を基本としていますが、[HyperPixel 4.0](https://shop.pimoroni.com/en-jp/products/hyperpixel-4?variant=12569485443155)でも動作します。
+
+音声再生機能はありません。懐かしいカーオーディオの表示演出を楽しむための作品です。
 
 音声再生機能はありません。懐かしいカーオーディオの表示演出を楽しむための作品です。
 
